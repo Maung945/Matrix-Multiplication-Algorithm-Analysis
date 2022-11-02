@@ -7,7 +7,6 @@ public class Matrix {
     // Iteration Matrix Multiplication
     public static int[][] classical(int[][] A, int[][] B, int n) {
         int[][] C = new int[n][n];
-
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 C[i][j] = 0;
@@ -24,7 +23,8 @@ public class Matrix {
         int[][] C = new int[n][n];
         if (n == 1) {
             C[0][0] = A[0][0] * B[0][0];
-        } else {
+        }
+        else {
             int[][] A11 = partitionMat(A, 0, n / 2, 0, n / 2);
             int[][] A12 = partitionMat(A, 0, n / 2, n / 2, n);
             int[][] A21 = partitionMat(A, n / 2, n, 0, n / 2);
@@ -50,7 +50,8 @@ public class Matrix {
         int[][] C = new int[n][n];
         if (n == 1) {
             C[0][0] = A[0][0] * B[0][0];
-        } else {
+        }
+        else {
             int[][] A11 = partitionMat(A, 0, n / 2, 0, n / 2);
             int[][] A12 = partitionMat(A, 0, n / 2, n / 2, n);
             int[][] A21 = partitionMat(A, n / 2, n, 0, n / 2);
