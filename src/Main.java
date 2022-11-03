@@ -8,7 +8,7 @@ public class Main {
 
    public static void main(String[] args) {
 
-           //Sanity check
+           //Matrices
            int[][] test1 = {{2,0, -1, 6}, {3,7, 8, 0}, {-5, 1, 6, -2}, {8, 0, 1, 7}};
            int[][] test2 = {{0,1, 6, 3}, {-2,8, 7, 1}, {2, 0, -1, 0}, {9, 1, 6, -2}};
            int[][] test3 = {{2, 1, 1, 5, 6}, {3, 7, 3, 8, 3}, {4, 7, -3, 6, -9}, {2, 7, -3, 6, -9}, {4, -7, -3, 6, -9}};
@@ -38,7 +38,12 @@ public class Main {
            System.out.println("Result of Strassen method: ");
            tester.printMat(result3);
         */
-
+       
+       
+       //time comparison
+       /*
+       data(test1, 0);
+       */
 
        //Sanity Check for Extra credit
        System.out.println("Test3 Matrix: ");
