@@ -40,9 +40,9 @@ public class Main {
         */
        
        
-       //time comparison
+       //time comparison(Correctly comment and uncomment line 106,107,108 depending on which is being tested)
        /*
-       data(test1, 0);
+           data(test1, 0);
        */
 
        //Sanity Check for Extra credit
